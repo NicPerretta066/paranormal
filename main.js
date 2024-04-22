@@ -21,7 +21,7 @@ fetch('/places')
 })
 .catch(err => {console.log(err) }) 
 
-const apiKey = 'c2554aca464b471dbfffab0905a48f55';
+
 let lat = '35.9304211';
 let lon = '-115.1329813';
 let url = `https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lon}&apiKey=${apiKey}`
